@@ -10,7 +10,54 @@
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
 
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}&nbsp;&nbsp;&nbsp;&nbsp;
 .small { 
   font-size: 10;
   text-align: right;
@@ -415,14 +462,15 @@ showSlides();
   </div>
 </div>
    <p>
-   <div class="rBox">  
-     <p>This is definitly the best place on earth to eat!! =)</p>
-     <P class="small"><small>-Owner</small></P>
-     </div>
-     </p>
+   </p>
+<div class="container darker">
+  <img src="https://i.pinimg.com/736x/c0/2e/a5/c02ea50ea2ac4d320288a1fa7f43b2bd--geek-chic-geeks.jpg" style="width:100%;">
+  <p>This is the best place to eat!! =) </p>
+  <span class="time-right">-Owner</span>
+</div>
+     <p></p>
     
   </h3>
   </div>
-
-
-</body><div><div class="gr_-editor gr-iframe-first-load" style="display: none;"><div class="gr_-editor_back"></div><iframe class="gr_-ifr gr-_dialog-content"></iframe></div></div><grammarly-card><div></div></grammarly-card><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
+</body>
+</html>
