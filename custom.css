@@ -6,8 +6,8 @@ body {font-family: Verdana, sans-serif;}
 img {vertical-align: middle;}
 body {
   margin: 0 auto;
-  max-width: 800px;
-  padding: 0 20px;
+  max-width: 0 auto;
+  padding: 0 auto;
 }
 
 .container {
